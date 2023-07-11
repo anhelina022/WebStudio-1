@@ -95,7 +95,7 @@ a {
     background-image: url(../img/Img\(16\)\(1\).jpg);
     width: 1600px;
     height: 600px;
-    padding-top: 200;
+    padding-top: 280px;
 }
 
 .hero-text {
@@ -129,7 +129,13 @@ a {
 }
 
 .section {
+    display: flex;
     justify-content: center;
+}
+
+.container-ul {
+    width: 270px;
+    height: 248px;
 }
 
 .container-li {
@@ -140,7 +146,8 @@ a {
 }
 
 .instegram {
-    padding: 270px 120px;
+    padding: 25px 100px;
+    display: flex;
 }
 
 .text-h {
