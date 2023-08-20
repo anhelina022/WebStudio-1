@@ -22,6 +22,11 @@ a {
     color: #2F303A;
 }
 
+.content-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
 .header {
     width: 1200px;
     display: flex;
@@ -129,49 +134,71 @@ a {
     margin: 0 auto;
 }
 
-.section {
+/**/
+
+.features {
+    padding: 94px 0;
+}
+
+.features-list {
     display: flex;
-    justify-content: center;
-    padding-top: 90px;
+    justify-content: space-between;
 }
 
-.container-ul {
+.features-list-item {
     width: 270px;
-    height: 248px;
 }
 
-.container-li {
-    width: 270px;
-    height: 120px;
-    border-radius: 4px;
-    background-color: #F5F4FA;
-}
-
-.instegram {
-    align-items: center;
-    justify-content: center;
-}
-
-.text-h {
-    display: flex;
-    width: 270px;
+.features-subtitle {
     color: #212121;
     font-size: 14px;
     font-family: 'Roboto';
     font-weight: 700;
     letter-spacing: 0.42px;
-    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
-.text-p {
-    display: flex;
-    width: 270px;
-    height: 72px;
+.features-paragraf {
     color: #757575;
     font-size: 14px;
     font-family: 'Roboto';
     font-style: normal;
 }
+
+.features-subtitle::before {
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+
+.features-list-item:nth-child(1) .features-subtitle::before {
+    background-image: url("../img/icons/antenna1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.features-list-item:nth-child(2) .features-subtitle::before {
+    background-image: url("../img/icons/clock1\(1\).svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.features-list-item:nth-child(3) .features-subtitle::before {
+    background-image: url("../img/icons/diagram1\(1\).svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.features-list-item:nth-child(4) .features-subtitle::before {
+    background-image: url("../img/icons/astronaut1\(1\).svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*Чим ми займаємося*/
 
 .work-title {
     color: #212121;
@@ -184,7 +211,7 @@ a {
     padding-bottom: 94px;
 }
 
-.photo-do {
+.photo {
     padding-bottom: 95px;
 }
 
@@ -281,8 +308,8 @@ a {
     font-size: 26px;
     font-weight: 700;
     line-height: normal;
-    padding-top: 60px;
-    padding-left: 161px;
+    margin-top: 60px;
+    margin-left: 161px;
 }
 
 .geolocation {
@@ -341,4 +368,8 @@ button {
     font-weight: 700;
     line-height: 30px; /* 187.5% */
     letter-spacing: 0.96px;
+}
+
+.footer-btn {
+    background-image: url("../img/icons/iconsend.svg");
 }
