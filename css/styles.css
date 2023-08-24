@@ -134,7 +134,6 @@ a {
     margin: 0 auto;
 }
 
-/**/
 
 .features {
     padding: 94px 0;
@@ -212,7 +211,7 @@ a {
 }
 
 .photo {
-    padding-bottom: 95px;
+    padding-bottom: 95px; 
 }
 
 .ccc {
@@ -220,13 +219,15 @@ a {
     justify-content: space-around;
 }
 
+/* Наша команда */
+
 .container2 {
     width: 1600px;
     height: 708px;
     background-color: #F5F4FA;
 }
 
-.text-h2 {
+.text {
     color: #212121;
     text-align: center;
     font-size: 36px;
@@ -243,17 +244,18 @@ a {
     padding-top: 50px;
 }
 
-.container-div-2 {
+.cards {
     width: 270px;
-    height: 500px;
+    height: 428px;
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-}
+    margin: 30px;
 
-.team {
-    width: 270px;
-    height: 260px;
+    background-image: url("../img/icons/instagram2.svg");
+    background-image: url("../img/icons/twitter2.svg");
+    background-image: url("../img/icons/facebook2.svg");
+    background-image: url("../img/icons/linkedin2.svg");
 }
 
 .team-list-title {
@@ -280,12 +282,16 @@ a {
     padding-top: 10px;
 }
 
+/* Постійні клієнти */
+
 .section-clients {
     width: 1600px;
     height: 400px;
+
+    /* background-image: url("../img/icons/Logo\(1\).svg"); */
 }
 
-.text-h0 {
+/* .text-h0 {
     color: #212121;
     text-align: center;
     font-family: 'Roboto';
@@ -294,7 +300,9 @@ a {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
-}
+} */
+
+/* footer */
 
 .footer{
     width: 1600px;
