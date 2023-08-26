@@ -199,6 +199,11 @@ a {
 
 /*Чим ми займаємося*/
 
+.work {
+    padding-bottom: 94px;
+
+}
+
 .work-title {
     color: #212121;
     text-align: center;
@@ -211,12 +216,21 @@ a {
 }
 
 .photo {
-    padding-bottom: 95px; 
+    width: 100%;
+    height: 100%;
+    object-position: ;
 }
 
-.ccc {
+.work-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.work-list-item {
+    width: 370px;
+    height: 294px;
+
 }
 
 /* Наша команда */
