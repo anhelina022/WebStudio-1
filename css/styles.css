@@ -240,6 +240,7 @@ a {
 
 /* Наша команда */
 
+
 .team {
     background-color: #F5F4FA;
     padding: 94px 0 ;
@@ -389,37 +390,29 @@ a {
     font-size: 26px;
     font-weight: 700;
     line-height: normal;
-    margin-top: 60px;
-    margin-left: 161px;
+    padding-left: 161px;
 }
 
 .geolocation {
-    flex-direction: column;
     color: #FFF;
     font-family: 'Roboto';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.42;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+    padding: 20px 0 0 215px;
 }
 
 .nav-list-email-2 {
-    display: flex;
-    width: 231px;
-    height: 21px;
-    flex-direction: column;
+    color: rgba(255, 255, 255, 0.60);
     font-family: 'Roboto';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;
-    color: #AFB1B8;
-}
-
-.nav-list-email-2:hover, .nav-list-email-2:focus {
-    color: #2196F3;
+    padding: 9px 0 0 215px;
 }
 
 .text-footer {
@@ -431,7 +424,38 @@ a {
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-    flex-direction: row;
+}
+
+.team-socials-footer {
+    width: 206px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-socials-footer__item:hover .socials {
+    fill: #FFFFFF;
+}
+
+.footer-socials {
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+}
+
+.team-socials-footer__item {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #FFFFFF1A;
+}
+
+.team-socials-footer__item:hover, .team-socials-footer__item:focus {
+    border-radius: 50%;
+    background-color: #2196F3;
+    
 }
 
 button {
