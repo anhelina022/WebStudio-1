@@ -17,9 +17,7 @@ a {
 
 .container{
     width: 1600px;
-    height: 2928px;
     margin: 0 auto;
-    color: #2F303A;
 }
 
 .content-container {
@@ -379,51 +377,66 @@ a {
 /* footer */
 
 .footer{
-    width: 1600px;
-    height: 252px;
     background:#2F303A;
 }
 
-.studio {
+.footer .content-container {
+    display: flex;
+}
+
+.footer-contact {
+    width: 231px;
+    margin-right: 70px;
+    padding: 60px 0;
+}
+
+.logo {
     color: #FFFFFF;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
     line-height: normal;
-    padding-left: 161px;
 }
 
 .geolocation {
     color: #FFF;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 171.429% */
+    line-height: 1.71; /* 171.429% */
     letter-spacing: 0.42px;
-    padding: 20px 0 0 215px;
+    margin-top: 20px;
+    margin-bottom: 9px;
 }
 
-.nav-list-email-2 {
+.adress {
     color: rgba(255, 255, 255, 0.60);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 171.429% */
+    line-height: 1.71; /* 171.429% */
     letter-spacing: 0.42px;
-    padding: 9px 0 0 215px;
+    margin-bottom: 9px;
+}
+
+.footer-join {
+    padding: 72px 0 100px;
+    margin-right: 93px;
+    width: 206px;
 }
 
 .text-footer {
     color: #FFF;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .team-socials-footer {
@@ -434,13 +447,13 @@ a {
 }
 
 .team-socials-footer__item:hover .socials {
-    fill: #FFFFFF;
+    fill: #FFF;
 }
 
 .footer-socials {
     width: 20px;
     height: 20px;
-    fill: #FFFFFF;
+    fill: #FFF;
 }
 
 .team-socials-footer__item {
@@ -449,11 +462,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    fill: #FFFFFF1A;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
 }
 
 .team-socials-footer__item:hover, .team-socials-footer__item:focus {
-    border-radius: 50%;
     background-color: #2196F3;
     
 }
