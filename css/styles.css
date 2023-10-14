@@ -172,25 +172,25 @@ a {
 }
 
 .features-list-item:nth-child(1) .features-subtitle::before {
-    background-image: url("../img/icons/symbol-defs.svg#icon-antenna");
+    background-image: url("../img/antenna.png");
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .features-list-item:nth-child(2) .features-subtitle::before {
-    background-image: url("../img/icons/symbol-defs.svg#icon-clock");
+    background-image: url("../img/clock.png");
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .features-list-item:nth-child(3) .features-subtitle::before {
-    background-image: url("../img/icons/symbol-defs.svg#icon-astronaut");
+    background-image: url("../img/diagram.png");
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .features-list-item:nth-child(4) .features-subtitle::before {
-    background-image: url("../img/icons/symbol-defs.svg#icon-diagram");
+    background-image: url("../img/astronaut.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -543,6 +543,8 @@ button {
     justify-content: center;
     align-items: center;
     contain: content;
+    position: fixed;
+    
 }
 
 .modal-logo {
@@ -567,11 +569,7 @@ button {
 .btn {
     width: 18px;
     height: 18px;
-    fill:#000000;
-}
-
-.btn:hover, .btn:focus {
-    fill:#2196F3;
+    fill: #FFF;;
 }
 
 .modal-input {
@@ -647,17 +645,7 @@ button {
 }
 
 .modal-btn {
-    width: 200px;
-    height: 50px;
-    border-radius: 4px;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    color: #FFF;
-    text-align: center;
-    font-family: 'Roboto';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px; /* 187.5% */
-    letter-spacing: 0.96px;
+    width: 24px;
+    height: 24px;
+    fill: #FFF;
 }
