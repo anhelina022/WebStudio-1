@@ -96,7 +96,7 @@ a {
 }
 
 .hero {
-    background-image: url(../img/Img\(16\)\(1\).jpg);
+    background-image: url(../img/Img.png);
     width: 1600px;
     height: 600px;
     padding-top: 200px;
@@ -184,13 +184,13 @@ a {
 }
 
 .features-list-item:nth-child(3) .features-subtitle::before {
-    background-image: url("../img/diagram.png");
+    background-image: url("../img/diagram.jpg");
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .features-list-item:nth-child(4) .features-subtitle::before {
-    background-image: url("../img/astronaut.png");
+    background-image: url("../img/astronaut.jpg");
     background-position: center;
     background-repeat: no-repeat;
 }
