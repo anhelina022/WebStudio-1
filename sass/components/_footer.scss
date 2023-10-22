@@ -1,0 +1,155 @@
+.footer{
+    background:#2F303A;
+}
+
+.footer .content-container {
+    display: flex;
+}
+
+.footer-contact {
+    width: 231px;
+    margin-right: 70px;
+    padding: 60px 0;
+}
+
+.logo {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.geolocation {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71; /* 171.429% */
+    letter-spacing: 0.42px;
+    margin-top: 20px;
+    margin-bottom: 9px;
+}
+
+.adress {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71; /* 171.429% */
+    letter-spacing: 0.42px;
+    margin-bottom: 9px;
+}
+
+.footer-join {
+    padding: 72px 0 100px;
+    margin-right: 93px;
+    width: 206px;
+}
+
+.text-footer {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.team-socials-footer {
+    width: 206px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-socials-footer__item:hover .socials {
+    fill: #FFF;
+}
+
+.footer-socials {
+    width: 20px;
+    height: 20px;
+    fill: #FFF;
+}
+
+.team-socials-footer__item {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.team-socials-footer__item:hover, .team-socials-footer__item:focus {
+    background-color: #2196F3;
+    
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.96px;
+}
+
+.label-section {
+    margin-top: 72px;
+}
+
+.text-footer-two {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+.label-socials {
+    width: 358px;
+    height: 50px;
+}
+
+.input-social {
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(33, 150, 243, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.label-btn {
+    width: 200px;
+    height: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.96px;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
