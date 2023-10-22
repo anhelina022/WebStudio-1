@@ -1,15 +1,27 @@
 .footer{
     background:#2F303A;
+
+    &__contact {
+        width: 231px;
+        margin-right: 70px;
+        padding: 60px 0;
+    }
+
+    &__join {
+        padding: 72px 0 100px;
+        margin-right: 93px;
+        width: 206px;
+    }
+
+    &__socials {
+        width: 20px;
+        height: 20px;
+        fill: #FFF;
+    }
 }
 
 .footer .content-container {
     display: flex;
-}
-
-.footer-contact {
-    width: 231px;
-    margin-right: 70px;
-    padding: 60px 0;
 }
 
 .logo {
@@ -43,12 +55,6 @@
     margin-bottom: 9px;
 }
 
-.footer-join {
-    padding: 72px 0 100px;
-    margin-right: 93px;
-    width: 206px;
-}
-
 .text-footer {
     color: #FFF;
     font-family: 'Roboto', sans-serif;
@@ -69,12 +75,6 @@
 }
 
 .team-socials-footer__item:hover .socials {
-    fill: #FFF;
-}
-
-.footer-socials {
-    width: 20px;
-    height: 20px;
     fill: #FFF;
 }
 
