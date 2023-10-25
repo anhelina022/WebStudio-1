@@ -78,7 +78,7 @@
     fill: #FFF;
 }
 
-.team-socials-footer__item {
+.team-socials-footer__item-two {
     width: 44px;
     height: 44px;
     display: flex;
@@ -88,7 +88,7 @@
     border-radius: 50%;
 }
 
-.team-socials-footer__item:hover, .team-socials-footer__item:focus {
+.team-socials-footer__item-two:hover, .team-socials-footer__item-two:focus {
     background-color: #2196F3;
     
 }
@@ -111,6 +111,7 @@ button {
 
 .label-section {
     margin-top: 72px;
+    margin-bottom: 94px;
 }
 
 .text-footer-two {
@@ -129,6 +130,7 @@ button {
 .label-socials {
     width: 358px;
     height: 50px;
+    margin-top: 108px;
 }
 
 .input-social {
@@ -141,15 +143,15 @@ button {
 .label-btn {
     width: 200px;
     height: 50px;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #FFF;
     text-align: center;
     font-family: 'Roboto';
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 30px; /* 187.5% */
+    line-height: 1.87; /* 187.5% */
     letter-spacing: 0.96px;
-    border-radius: 4px;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
