@@ -42,11 +42,7 @@
     text-decoration: none;
 }
 
-.nav-list-text:hover, .nav-list-text:focus {
-    color: #2196F3;
-}
-
-.nav-list-text{
+.nav-list-text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -54,6 +50,27 @@
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
+    position: relative;
+
+    &:hover, &:focus {
+        color: #2196F3;
+        &::after {
+            width: 100%;
+        }
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 44px;
+        width: 0;
+        height: 4px;
+        background-color: #2196F3;
+        border-radius: 2px;
+        transition: width 250ms linear ;
+    }
+    
 }
 
 .nav-list-email {

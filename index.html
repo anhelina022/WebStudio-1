@@ -94,17 +94,17 @@
       </section>
 
       <section class="team">
-        <h2 class="team-text">Наша команда</h2>
+        <h2 class="team__text">Наша команда</h2>
         <div class="content-container"> 
           
           <!-- Ігор -->
-          <ul class="cards">
-            <li class="team-cards">
-              <div class="team-tumb">
-                <img src="./img/img1.png" alt="Ігор" class="img">
+          <ul class="cards-list">
+            <li class="cards-list__item">
+              <div class="cards-list__thumb">
+                <img src="./img/img1.png" alt="Ігор" class="cards-list__img">
               </div>
-              <h4 class="team-list-title">Ігор Дем'яненко</h4>
-              <p class="team-list-paragraph">Product Designer</p>
+              <h4 class="cards-list__title">Ігор Дем'яненко</h4>
+              <p class="cards-list__paragraph">Product Designer</p>
 
               <ul class="team-socials">
                 <li class="team-socials__item">
@@ -148,12 +148,12 @@
           </li>
 
         <!-- Ольга -->
-            <li class="team-cards">
-              <div class="team-tumb">
-                <img src="./img/img2.png" alt="Ольга" class="img">
+            <li class="cards-list__item">
+              <div class="cards-list__thumb">
+                <img src="./img/img2.png" alt="Ольга" class="cards-list__img">
               </div>
-              <h4 class="team-list-title">Ольга Рєпіна</h4>
-              <p class="team-list-paragraph">Frontend Developer</p>
+              <h4 class="cards-list__title">Ольга Рєпіна</h4>
+              <p class="cards-list__paragraph">Frontend Developer</p>
 
               <ul class="team-socials">
                 <li class="team-socials__item">
@@ -197,12 +197,12 @@
           </li>
 
         <!-- Микола -->
-              <li class="team-cards">
-                <div class="team-tumb">
-                  <img src="./img/img3.jpg" alt="Микола" class="img">
+              <li class="cards-list__item">
+                <div class="">
+                  <img src="./img/img3.jpg" alt="Микола" class="cards-list__img">
                 </div>
-                <h4 class="team-list-title">Микола Тарасов</h4>
-                <p class="team-list-paragraph">Marketing</p>
+                <h4 class="cards-list__title">Микола Тарасов</h4>
+                <p class="cards-list__paragraph">Marketing</p>
 
                 <ul class="team-socials">
                   <li class="team-socials__item">
@@ -246,12 +246,12 @@
             </li>
 
         <!-- Михайло -->
-              <li class="team-cards">
-                <div class="team-tumb">
-                  <img src="./img/img4.jpg" alt="Михайло" class="img">
+              <li class="cards-list__item">
+                <div class="cards-list__thumb">
+                  <img src="./img/img4.jpg" alt="Михайло" class="cards-list__img">
                 </div>
-                <h4 class="team-list-title">Михайло Єрмаков</h4>
-                <p class="team-list-paragraph">UI Designer</p>
+                <h4 class="cards-list__title">Михайло Єрмаков</h4>
+                <p class="cards-list__paragraph">UI Designer</p>
 
                 <ul class="team-socials">
                   <li class="team-socials__item">
@@ -441,47 +441,49 @@
     </footer>
      
       <div class="backdrop">
-        <form class="modol">
+        <form class="modal">
           <button type="button" class="close" data-modal-close>
-           <svg class="btn"><use href="./img/icons/symbol-defs.svg#icon-close">
+           <svg class="modal-svg-close"><use href="./img/icons/symbol-defs.svg#icon-close">
            </use></svg>
           </button>
      
-           <h3 class="modal-logo">Залиште свої дані, ми вам передзвонимо</h3>
+           <h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
      
            <ul>
              <li class="modal-list-item">
               <label class="modal-label">Ім'я
+                <input type="text" class="modal-input">
               <svg class="modal-svg">
                 <use href="./img/icons/symbol-defs.svg#icon-person-black"></use>
               </svg>
-              <input type="text" class="modal-input">
             </label>
           </li>
      
              <li class="modal-list-item">
               <label class="modal-label">Телефон
+                <input type="text" class="modal-input">
               <svg class="modal-svg">
                 <use href="./img/icons/symbol-defs.svg#icon-phone-black"></use>
               </svg>
-              <input type="text" class="modal-input"></label>
+            </label>
             </li>
      
              <li class="modal-list-item">
               <label class="modal-label">Пошта
+                <input type="text" class="modal-input">
               <svg class="modal-svg">
                 <use href="./img/icons/symbol-defs.svg#icon-email-black"></use>
               </svg>
-              <input type="text" class="modal-input"></label>
+            </label>
             </li>
   
-             <li>
-              <label for=""><textarea cols="30" rows="10" class="modal-textarea"></textarea></label>
+             <li class="">
+              <label><textarea cols="30" rows="10" class="modal-textarea"></textarea></label>
              </li>
            </ul>
      
-             <p>
-             <input type="checkbox" class="modal-checkbox"> Погоджуюся з розсилкою та приймаю <a href="" class="modal-checkbox-two">Умови договору</a>
+             <p class="">
+             <input type="checkbox" class="modal-checkbox"> Погоджуюся з розсилкою та приймаю <a href="#" class="modal-checkbox-two">Умови договору</a>
              </p>
      
              <button type="submit" class="modal-btn">Відправити</button>
