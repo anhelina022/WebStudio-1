@@ -56,15 +56,32 @@
             line-height: normal;
             letter-spacing: 0.48px;
             margin-top: 10px;
+            margin-bottom: 16px;
         }
+    
+}
+
+.team-socials {
+    display: flex;
+    width: 206px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: transparent;
     }
+}
 
     .socials {
         width: 20px;
         height: 20px;
         fill: #AFB1B8;
-        margin-right: 34px;
-        margin-top: 28px;
     }
 
     .team-socials__item:hover .socials {
@@ -72,9 +89,6 @@
     }
     
     .team-socials__item:hover, .team-socials__item:focus {
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
         background-color: #2196F3;
     }
  

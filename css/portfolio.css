@@ -32,24 +32,6 @@ a {
   margin: 0 auto;
   padding: 24px 0;
 }
-.header-left {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 520px;
-}
-.header-ul1 {
-  display: flex;
-  justify-content: space-between;
-  width: 281px;
-  align-items: center;
-}
-.header-right {
-  display: flex;
-  justify-content: space-between;
-  width: 307px;
-  align-items: center;
-}
 
 .Web {
   color: #2196F3;
@@ -66,7 +48,20 @@ a {
   text-decoration: none;
 }
 
-.nav-list-text {
+.header-nav {
+  width: 285px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list__link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -76,13 +71,13 @@ a {
   color: #212121;
   position: relative;
 }
-.nav-list-text:hover, .nav-list-text:focus {
+.nav-list__link:hover, .nav-list__link:focus {
   color: #2196F3;
 }
-.nav-list-text:hover::after, .nav-list-text:focus::after {
+.nav-list__link:hover::after, .nav-list__link:focus::after {
   width: 100%;
 }
-.nav-list-text::after {
+.nav-list__link::after {
   content: "";
   position: absolute;
   left: 0;
@@ -94,16 +89,30 @@ a {
   transition: width 250ms linear;
 }
 
-.nav-list-email {
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 333px;
+}
+.contacts__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #757575;
   font-size: 14px;
-  font-family: "Roboto";
   font-weight: 500;
   letter-spacing: 0.28px;
 }
-
-.nav-list-email:hover, .nav-list-email:focus {
+.contacts__link:hover, .contacts__link:focus {
   color: #2196F3;
+}
+.contacts__link:hover .contacts__svg, .contacts__link:focus .contacts__svg {
+  fill: #2196F3;
+}
+.contacts__svg {
+  margin-right: 10px;
+  fill: #757575;
 }
 
 .footer {

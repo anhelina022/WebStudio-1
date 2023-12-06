@@ -4,27 +4,6 @@
     justify-content: space-between;
     margin: 0 auto;
     padding: 24px 0;
-
-    &-left{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 520px;
-    }
-
-    &-ul1{
-        display: flex;
-        justify-content: space-between;
-        width: 281px;
-        align-items: center;
-    }
-
-    &-right{
-        display: flex;
-        justify-content: space-between;
-        width: 307px;
-        align-items: center;
-    }
 }
 
 .Web{
@@ -42,45 +21,77 @@
     text-decoration: none;
 }
 
-.nav-list-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;
-    position: relative;
+.header-nav {
+    width: 285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__link {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #212121;
+        position: relative;
+    
+        &:hover, &:focus {
+            color: #2196F3;
+            &::after {
+                width: 100%;
+            }
+        }
+    
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 44px;
+            width: 0;
+            height: 4px;
+            background-color: #2196F3;
+            border-radius: 2px;
+            transition: width 250ms linear ;
+        }
+        
+    }
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 333px;
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #757575;
+        font-size: 14px;
+        font-weight: 500;
+    letter-spacing: 0.28px;
 
     &:hover, &:focus {
         color: #2196F3;
-        &::after {
-            width: 100%;
+
+        & .contacts__svg {
+            fill: #2196F3;
         }
     }
-
-    &::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 44px;
-        width: 0;
-        height: 4px;
-        background-color: #2196F3;
-        border-radius: 2px;
-        transition: width 250ms linear ;
     }
-    
-}
 
-.nav-list-email {
-    color: #757575;
-    font-size: 14px;
-    font-family: 'Roboto';
-    font-weight: 500;
-    letter-spacing: 0.28px;
-}
-
-.nav-list-email:hover, .nav-list-email:focus {
-    color: #2196F3;
+    &__svg {
+        margin-right: 10px;
+        fill: #757575;
+    }
 }
