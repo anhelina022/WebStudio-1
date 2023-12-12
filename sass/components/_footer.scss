@@ -1,70 +1,74 @@
-.footer{
-    background:#2F303A;
+.footer .inner-container {
+    display: flex;
+}
 
-    &__contact {
+.footer{
+    background-color:#2F303A;
+    padding: 60px 0;
+
+    &-contact {
         width: 231px;
         margin-right: 70px;
-        padding: 60px 0;
     }
 
-    &__join {
-        padding: 72px 0 100px;
-        margin-right: 93px;
-        width: 206px;
+    &-subscribe {
+        padding-top: 12px;
+        width: 570px;
     }
 
-    &__socials {
+    &-socials {
         width: 20px;
         height: 20px;
         fill: #FFF;
     }
 }
 
-.footer .content-container {
-    display: flex;
-}
-
-.logo {
-    color: #FFFFFF;
+.footer-contact__logo {
+    color: #2196F3;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
     line-height: normal;
-}
-
-.geolocation {
-    color: #FFF;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.71; /* 171.429% */
-    letter-spacing: 0.42px;
-    margin-top: 20px;
-    margin-bottom: 9px;
-}
-
-.adress {
-    color: rgba(255, 255, 255, 0.60);
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.71; /* 171.429% */
-    letter-spacing: 0.42px;
-    margin-bottom: 9px;
-}
-
-.text-footer {
-    color: #FFF;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
     margin-bottom: 20px;
+    display: block;
+
+    &-studio{
+        color: #FFFFFF;
+    }
+}
+
+.address {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 9px;
+
+    &__geolocation {
+        color: #FFF;
+    }
+
+    &__contacts {
+        color: rgba(255, 255, 255, 0.60);
+    }
+}
+
+.footer-join {
+    padding-top: 12px;
+    margin-right: 93px;
+    width: 206px;
+
+    &__title {
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
 }
 
 .team-socials-footer {

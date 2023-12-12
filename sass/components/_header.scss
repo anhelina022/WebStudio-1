@@ -1,24 +1,26 @@
-.header {
-    width: 1200px;
+.header .inner-container{
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
     padding: 24px 0;
 }
 
-.Web{
-    color: #2196F3;
-}
-
 .logo-link {
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: 'Raleway' sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: black;
+    color: #2196F3;
     text-decoration: none;
+
+    .header__logo-studio {
+        color: #000;
+    }
 }
 
 .header-nav {
@@ -35,8 +37,6 @@
     align-items: center;
 
     &__link {
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
