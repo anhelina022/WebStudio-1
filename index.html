@@ -6,17 +6,21 @@
     <title>WebStudio</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100;400;500;700;900&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <div class="container">
       <header class="header">
         <div class="inner-container">
-          <a href="./index.html" class="logo-link">Web<span class="header__logo-studio">Studio</span></a>
+          <a href="./index.html" class="logo-link"
+            >Web<span class="header__logo-studio">Studio</span></a
+          >
           <nav class="header-nav">
             <ul class="nav-list">
               <li class="nav-list__item">
@@ -449,17 +453,23 @@
 
           <section class="footer-subscribe">
             <form class="subscribe-form">
-              <label class="subscribe-form__label">Підпишіться на розсилку 
-                <input type="email" placeholder="E-mail" class="subscribe-form__input" title="Введіть пошту" required>
+              <label class="subscribe-form__label"
+                >Підпишіться на розсилку
+                <input
+                  type="email"
+                  placeholder="E-mail"
+                  class="subscribe-form__input"
+                  title="Введіть пошту"
+                  required/>
               </label>
 
-            <button type="button" class="subscribe-form__btn">
-              Підписатися
-              <svg class="subscribe-form__svg">
-                <use href="./img/icons/symbol-defs.svg#icon-send"></use>
-              </svg>
-            </button>
-          </form>
+              <button type="button" class="subscribe-form__btn">
+                Підписатися
+                <svg class="subscribe-form__svg">
+                  <use href="./img/icons/symbol-defs.svg#icon-send"></use>
+                </svg>
+              </button>
+            </form>
           </section>
         </div>
       </footer>
@@ -467,7 +477,7 @@
       <div class="backdrop is-hidden">
         <form class="modal is-hidden">
           <button type="button" class="modal__btn-close" data-modal-close>
-            <svg class="modal__svg-close">
+            <svg class="">
               <use href="./img/icons/symbol-defs.svg#icon-close"></use>
             </svg>
           </button>
@@ -478,7 +488,7 @@
             <li class="modal-list__item">
               <label class="modal-list__label"
                 >Ім'я
-                <input type="text" class="modal-list__input" required/>
+                <input type="text" class="modal-list__input" required />
                 <svg class="modal-list__svg" width="12" height="12">
                   <use
                     href="./img/icons/symbol-defs.svg#icon-person-black"
@@ -513,7 +523,12 @@
 
             <li class="modal-list__item">
               <label class="modal-list__label">
-                <textarea cols="30" rows="10" class="modal-list__textarea" placeholder="Введіть текст"></textarea>
+                <textarea
+                  cols="30"
+                  rows="10"
+                  class="modal-list__textarea"
+                  placeholder="Введіть текст"
+                ></textarea>
               </label>
             </li>
           </ul>
@@ -528,5 +543,6 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
