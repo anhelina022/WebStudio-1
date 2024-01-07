@@ -28,12 +28,16 @@
         height: 30px;
         border-radius: 50px;
         border: none;
+
     }
 
     &__svg-close {
         width: 18px;
         height: 18px;
-        fill: #000000;
+
+        &:hover, &:focus {
+            fill: #2196F3;
+        }
     }
    
     &__title {
@@ -65,9 +69,10 @@
         text-align: center;
         font-size: 16px;
         font-weight: 700;
-        line-height: 30px; /* 187.5% */
+        line-height: 1.87; /* 187.5% */
         letter-spacing: 0.96px;
         border: none;
+        margin: 0 auto;
     }
 
     &__input {
@@ -75,6 +80,16 @@
         height: 40px;
         border-radius: 4px;
         border: 1px solid rgba(33, 33, 33, 0.20);
+    }
+
+    &__checkbox {
+        color: #757575;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.71; /* 171.429% */
+        letter-spacing: 0.42px;
     }
 }
 
@@ -156,3 +171,20 @@
     letter-spacing: 0.42px;
     text-decoration-line: underline;
 }
+
+.modal-list__item {
+    margin-bottom: 20px;
+}
+
+.modal__accept {
+    padding-bottom: 20px;
+}
+.modal__link {
+    color: #2196F3;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    text-decoration-line: underline;
+}
+
