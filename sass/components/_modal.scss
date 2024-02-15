@@ -28,13 +28,19 @@
     width: 30px;
     height: 30px;
     border-radius: 50px;
-    stroke: rgba(0, 0, 0, 0.10);
+    color: rgba(0, 0, 0, 0.10);
     background-color: #FFF;
+    border: 1px solid #757575;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
  &__svg-close {
      width: 18px;
      height: 18px;
+     
 
      &:hover, &:focus {
          fill: #2196F3;
@@ -50,7 +56,7 @@
  }
 
  &__accept {
-     padding-bottom: 20px;
+     margin: 26px 0 20px;
  }
 
  &__checkbox {
@@ -91,7 +97,6 @@
 }
 
 .modal-list__label {
-    text-transform: uppercase;
     color: #757575;
     font-family: 'Roboto';
     font-size: 12px;
@@ -99,12 +104,14 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.12px;
+    
 }
 
 .modal-list__input {
     width: 448px;
     height: 40px;
     border-radius: 4px;
+    position: relative;
     border: 1px solid rgba(33, 33, 33, 0.20);
 }
 
@@ -123,4 +130,10 @@
     line-height: 24px;
     letter-spacing: 0.42px;
     text-decoration-line: underline;
+}
+
+.modal-list__swg {
+    position: absolute;
+    bottom: 20px;
+    left: 12px;
 }
