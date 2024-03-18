@@ -22,6 +22,8 @@
     &__item {
         width: 370px;
         height: 294px;
+        overflow: hidden;
+
 
         &:nth-child(n)::after {
             content: "";
@@ -41,6 +43,7 @@
             line-height: normal;
             letter-spacing: 0.42px;
             text-transform: uppercase;
+
         }
 
         &:nth-child(1)::after {
@@ -53,7 +56,13 @@
 
         &:nth-child(3)::after {
             content: "Дизайнерські рішення";
+
         }
+
+        &:hover .work-list__img {
+            transform: scale(1.2);
+        }
+
     }
 
     &__img {
@@ -61,5 +70,6 @@
         height: 100%;
         object-fit: cover;
         object-position: center;
+        transition: transform 1s linear;
     }
 }
