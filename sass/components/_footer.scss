@@ -19,12 +19,12 @@
     &-socials {
         width: 20px;
         height: 20px;
-        fill: #FFF;
+        fill: getColor('white-primary');
     }
 }
 
 .footer-contact__logo {
-    color: #2196F3;
+    color: getColor('blue-color');
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
@@ -33,7 +33,7 @@
     display: block;
 
     &-studio{
-        color: #FFFFFF;
+        color: getColor('white-primary');
     }
 }
 
@@ -48,7 +48,7 @@
     gap: 9px;
 
     &__geolocation {
-        color: #FFF;
+        color: getColor('white-primary');
     }
 
     &__contacts {
@@ -62,7 +62,7 @@
     width: 206px;
 
     &__title {
-        color: #FFF;
+        color: getColor('white-primary');
         font-size: 14px;
         font-weight: 700;
         letter-spacing: 0.42px;
@@ -79,7 +79,7 @@
 }
 
 .team-socials-footer__item:hover {
-    background-color: #2196F3;
+    background-color: getColor('blue-color');
 }
 
 .team-socials-footer__item {
@@ -107,7 +107,7 @@
 
     &__label {
         width: 358px;
-        color: #FFF;
+        color: getColor('white-primary');
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
         font-style: normal;
@@ -132,9 +132,9 @@
         width: 200px;
         height: 50px;
         border-radius: 4px;
-        background-color: #2196F3;
+        background-color: getColor('blue-color');
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-        color: #FFF;
+        color: getColor('white-primary');
         font-size: 16px;
         font-weight: 700;
         line-height: 30px; /* 187.5% */
@@ -147,7 +147,7 @@
     }
 
         &__svg {
-            fill: #FFF;
+            fill: getColor('white-primary');
             width: 24px;
             height: 24px;
         }

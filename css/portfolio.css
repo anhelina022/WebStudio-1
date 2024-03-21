@@ -132,7 +132,7 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: #000;
   position: relative;
 }
 .nav-list__link:hover, .nav-list__link:focus {
@@ -206,8 +206,8 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filters-btn:hover, .filters-btn:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: #2196F3;
+  color: #fff;
 }
 
 .cards-list {
@@ -256,7 +256,7 @@ a {
   letter-spacing: 1.08px;
 }
 .cards-list__text {
-  color: #757575;
+  color: getColo("blue-color");
   font-size: 16px;
   font-weight: 400;
   line-height: 1.87;
@@ -300,7 +300,7 @@ a {
 .footer-socials {
   width: 20px;
   height: 20px;
-  fill: #FFF;
+  fill: #fff;
 }
 
 .footer-contact__logo {
@@ -313,7 +313,7 @@ a {
   display: block;
 }
 .footer-contact__logo-studio {
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .address {
@@ -327,7 +327,7 @@ a {
   gap: 9px;
 }
 .address__geolocation {
-  color: #FFF;
+  color: #fff;
 }
 .address__contacts {
   color: rgba(255, 255, 255, 0.6);
@@ -339,7 +339,7 @@ a {
   width: 206px;
 }
 .footer-join__title {
-  color: #FFF;
+  color: #fff;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;
@@ -383,7 +383,7 @@ a {
 }
 .subscribe-form__label {
   width: 358px;
-  color: #FFF;
+  color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -408,7 +408,7 @@ a {
   border-radius: 4px;
   background-color: #2196F3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px; /* 187.5% */
@@ -420,7 +420,7 @@ a {
   border: none;
 }
 .subscribe-form__svg {
-  fill: #FFF;
+  fill: #fff;
   width: 24px;
   height: 24px;
 }/*# sourceMappingURL=portfolio.css.map */

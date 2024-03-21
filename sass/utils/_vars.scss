@@ -1,0 +1,13 @@
+$colors:(
+    'white-primary':#fff,
+    'blue-color':#2196F3,
+    'black-color':#000,
+    'gray-color':#757575,
+    'lightgray-color':#AFB1B8,
+    'advantages-bg':#212121,
+    'layout-bg':#f5f4fa,
+);
+
+@function getColor($key) {
+    @return map-get($colors, $key);
+    }

@@ -12,7 +12,7 @@
 }
 
 .features-subtitle {
-    color: #212121;
+    color: getColor('black-color');
     font-size: 14px;
     font-family: 'Roboto';
     font-weight: 700;
@@ -21,7 +21,7 @@
 }
 
 .features-paragraf {
-    color: #757575;
+    color: getColor('gray-color');
     font-size: 14px;
     font-family: 'Roboto';
     font-style: normal;
@@ -32,7 +32,7 @@
     display: block;
     width: 270px;
     height: 120px;
-    background-color: #F5F4FA;
+    background-color: getColor('white-primary');
     margin-bottom: 30px;
 }
 
