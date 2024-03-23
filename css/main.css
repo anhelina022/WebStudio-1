@@ -199,7 +199,7 @@ a {
   text-transform: uppercase;
   flex-direction: column;
   flex-shrink: 0;
-  color: #FFF;
+  color: #fff;
 }
 .hero-btn {
   display: block;
@@ -211,7 +211,7 @@ a {
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   width: 216px;
   height: 50px;
   margin: 0 auto;
@@ -252,7 +252,7 @@ a {
   display: block;
   width: 270px;
   height: 120px;
-  background-color: #fff;
+  background-color: #F5F4FA;
   margin-bottom: 30px;
 }
 
@@ -371,7 +371,7 @@ a {
   width: 270px;
   height: 428px;
   border-radius: 0px 0px 4px 4px;
-  background: #FFF;
+  background: #fff;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   margin-right: 30px;
 }
@@ -428,7 +428,7 @@ a {
 }
 
 .team-socials__item:hover .socials {
-  fill: #FFFFFF;
+  fill: #fff;
 }
 
 .team-socials__item:hover, .team-socials__item:focus {
@@ -644,7 +644,7 @@ a {
   width: 528px;
   position: absolute;
   border-radius: 4px;
-  background: #FFF;
+  background: #fff;
   z-index: 11;
   padding: 40px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -656,7 +656,7 @@ a {
   width: 30px;
   height: 30px;
   border-radius: 50px;
-  background-color: #FFF;
+  background-color: #fff;
   border: 1px solid #757575;
   margin: 0 auto;
   display: flex;
@@ -705,7 +705,7 @@ a {
   border-radius: 4px;
   background-color: #2196F3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: 16px;
   font-weight: 700;

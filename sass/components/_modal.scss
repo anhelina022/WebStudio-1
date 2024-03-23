@@ -15,7 +15,7 @@
     width: 528px;
     position: absolute;
     border-radius: 4px;
-    background: #FFF;
+    background: getColor('white-primary');
     z-index: 11;
     padding: 40px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -28,8 +28,8 @@
     width: 30px;
     height: 30px;
     border-radius: 50px;
-    background-color: #FFF;
-    border: 1px solid #757575;
+    background-color: getColor('white-primary');
+    border: 1px solid getColor('gray-color');
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -42,12 +42,12 @@
      
 
      &:hover, &:focus {
-         fill: #2196F3;
+         fill: getColor('blue-color');
      }
  }
    
  &__title {
-     color: #212121;
+     color: getColor('advantages-bg');
      text-align: center;
      font-size: 20px;
      font-weight: 700;
@@ -56,11 +56,11 @@
 
  &__accept {
      margin: 26px 0 20px;
-     color: #757575;
+     color: getColor('gray-color');
  }
 
  &__checkbox {
-     color: #757575;
+     color: getColor('gray-color');
      font-family: 'Roboto';
      font-size: 14px;
      font-style: normal;
@@ -70,7 +70,7 @@
  }
 
  &__link {
-     color: #2196F3;
+     color: getColor('blue-color');
      font-size: 14px;
      font-weight: 400;
      line-height: 24px;
@@ -83,9 +83,9 @@
      width: 200px;
      height: 50px;
      border-radius: 4px;
-     background-color: #2196F3;
+     background-color: getColor('blue-color');
      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-     color: #FFF;
+     color: getColor('white-primary');
      text-align: center;
      font-size: 16px;
      font-weight: 700;
@@ -97,7 +97,7 @@
 }
 
 .modal-list__label {
-    color: #757575;
+    color: getColor('gray-color');
     font-family: 'Roboto';
     font-size: 12px;
     font-style: normal;
@@ -125,9 +125,9 @@
     border: 1px solid rgba(33, 33, 33, 0.20);
 
     &:hover, &:focus {
-        border: 1px solid #2196F3;
+        border: 1px solid getColor('blue-color');
         & + .modal-list__svg {
-            fill: #2196F3;
+            fill: getColor('blue-color');
         }
     }
 }
@@ -143,12 +143,12 @@
     cursor: pointer;
 
     &:hover,&:focus {
-        border: 1px solid #2196F3;
+        border: 1px solid getColor('blue-color');
     }
 }
 
 .modal__link {
-    color: #2196F3;
+    color: getColor('blue-color');
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
